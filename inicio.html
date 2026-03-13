@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Viajes y Aventuras - Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f1c40f;
+        }
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        /* Reseña */
+        .resena {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        /* Fotos */
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .galeria img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid #bdc3c7;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        .galeria img:hover {
+            transform: scale(1.05);
+            border-color: #f1c40f;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="galeria.html">Galería</a>
+    </nav>
+
+    <div class="content">
+      <h1>Bienvenido a mi página web</h1>
+       <h2>Viajes y Aventuras</h2>
+
+        <!-- Reseña -->
+        <section class="resena">
+            <h2>Acerca de Nosotros</h2>
+            <p>
+                En <strong>Viajes y Aventuras</strong>, somos apasionados por explorar el mundo y compartir experiencias únicas con nuestros visitantes. Nuestro objetivo es ofrecer destinos increíbles, consejos útiles y fotografías impresionantes para inspirarte a planear tu próxima aventura. ¡Únete a nosotros y descubre lugares maravillosos en todo el planeta!
+            </p>
+        </section>
+
+        <!-- Fotos -->
+        <section class="fotos">
+            <h2>Galería de Viajes</h2>
+            <div class="galeria">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Montañas" />
+                <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Playa" />
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ciudad" />
+                <img src="https://images.unsplash.com/photo-1516684680856-8f45f4b5a4b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Aventura" />
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>

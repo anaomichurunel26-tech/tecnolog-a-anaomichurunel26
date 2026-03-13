@@ -1,0 +1,99 @@
+
+ <nav>
+        <a href="inicio.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+		<a href="galeria.html">Galeria</a>
+    </nav>
+
+
+
+
+<section id="galeria" style="padding:5rem 1rem; background: linear-gradient(to bottom, #ebf5fb, #f0f4f8);">
+    <div style="text-align:center; max-width:900px; margin:0 auto 4rem auto;">
+        <h2 style="color:#2e86de; font-size:3rem; margin-bottom:1rem;">Galería de Aventuras</h2>
+        <p style="color:#555; font-size:1.2rem;">
+            Explora paisajes increíbles y experiencias únicas alrededor del mundo. Inspírate para tu próxima aventura.
+        </p>
+    </div>
+
+    <!-- Grid tipo masonry -->
+    <div style="column-count:3; column-gap:1rem; max-width:1200px; margin:0 auto;">
+        <!-- Imagen 1 -->
+        <div style="break-inside: avoid; margin-bottom:1rem; position:relative; overflow:hidden; border-radius:20px; box-shadow:0 15px 40px rgba(0,0,0,0.1); cursor:pointer;">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" 
+                 alt="Selva tropical" style="width:100%; transition: transform 0.5s;">
+            <div style="position:absolute; bottom:0; left:0; width:100%; padding:0.8rem; background:rgba(46,134,222,0.7); color:white; font-weight:bold; text-align:center; font-size:1rem; opacity:0; transition:opacity 0.4s;">
+                Selva Tropical
+            </div>
+        </div>
+
+        <!-- Imagen 2 -->
+        <div style="break-inside: avoid; margin-bottom:1rem; position:relative; overflow:hidden; border-radius:20px; box-shadow:0 15px 40px rgba(0,0,0,0.1); cursor:pointer;">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" 
+                 alt="Montaña nevada" style="width:100%; transition: transform 0.5s;">
+            <div style="position:absolute; bottom:0; left:0; width:100%; padding:0.8rem; background:rgba(46,134,222,0.7); color:white; font-weight:bold; text-align:center; font-size:1rem; opacity:0; transition:opacity 0.4s;">
+                Montaña Nevada
+            </div>
+        </div>
+
+        <!-- Imagen 3 -->
+        <div style="break-inside: avoid; margin-bottom:1rem; position:relative; overflow:hidden; border-radius:20px; box-shadow:0 15px 40px rgba(0,0,0,0.1); cursor:pointer;">
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=600&q=80" 
+                 alt="Playa paradisiaca" style="width:100%; transition: transform 0.5s;">
+            <div style="position:absolute; bottom:0; left:0; width:100%; padding:0.8rem; background:rgba(46,134,222,0.7); color:white; font-weight:bold; text-align:center; font-size:1rem; opacity:0; transition:opacity 0.4s;">
+                Playa Paradisiaca
+            </div>
+        </div>
+
+        <!-- Imagen 4 -->
+        <div style="break-inside: avoid; margin-bottom:1rem; position:relative; overflow:hidden; border-radius:20px; box-shadow:0 15px 40px rgba(0,0,0,0.1); cursor:pointer;">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" 
+                 alt="Lago y montañas" style="width:100%; transition: transform 0.5s;">
+            <div style="position:absolute; bottom:0; left:0; width:100%; padding:0.8rem; background:rgba(46,134,222,0.7); color:white; font-weight:bold; text-align:center; font-size:1rem; opacity:0; transition:opacity 0.4s;">
+                Lago y Montañas
+            </div>
+        </div>
+
+        <!-- Imagen 5 -->
+        <div style="break-inside: avoid; margin-bottom:1rem; position:relative; overflow:hidden; border-radius:20px; box-shadow:0 15px 40px rgba(0,0,0,0.1); cursor:pointer;">
+            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=600&q=80" 
+                 alt="Safari" style="width:100%; transition: transform 0.5s;">
+            <div style="position:absolute; bottom:0; left:0; width:100%; padding:0.8rem; background:rgba(46,134,222,0.7); color:white; font-weight:bold; text-align:center; font-size:1rem; opacity:0; transition:opacity 0.4s;">
+                Safari
+            </div>
+        </div>
+
+        <!-- Imagen 6 -->
+        <div style="break-inside: avoid; margin-bottom:1rem; position:relative; overflow:hidden; border-radius:20px; box-shadow:0 15px 40px rgba(0,0,0,0.1); cursor:pointer;">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=80" 
+                 alt="Cascada" style="width:100%; transition: transform 0.5s;">
+            <div style="position:absolute; bottom:0; left:0; width:100%; padding:0.8rem; background:rgba(46,134,222,0.7); color:white; font-weight:bold; text-align:center; font-size:1rem; opacity:0; transition:opacity 0.4s;">
+                Cascada
+            </div>
+        </div>
+    </div>
+
+    <style>
+        /* Hover efecto imagen y overlay */
+        #galeria div:hover img {
+            transform: scale(1.08);
+        }
+        #galeria div:hover div {
+            opacity:1;
+        }
+
+        /* Responsive */
+        @media (max-width:1024px) {
+            #galeria div[style*="column-count"] {
+                column-count:2;
+            }
+        }
+        @media (max-width:768px) {
+            #galeria div[style*="column-count"] {
+                column-count:1;
+            }
+        }
+    </style>
+</section>

@@ -1,0 +1,75 @@
+
+ <nav>
+        <a href="inicio.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+		<a href="galeria.html">Galeria</a>
+    </nav>
+
+
+
+<section id="nosotros" style="padding:4rem 2rem; background-color:#f0f4f8; font-family:Arial, sans-serif;">
+    <div style="max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; gap:2rem;">
+        <!-- Imagen lateral -->
+        <div style="flex:1; min-width:300px;">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" 
+                 alt="Aventuras y viajes" 
+                 style="width:100%; border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,0.1);">
+        </div>
+
+        <!-- Contenido de Nosotros -->
+        <div style="flex:1; min-width:300px;">
+            <h2 style="color:#2e86de; font-size:2.5rem; margin-bottom:1rem;">Nosotros</h2>
+            <p style="color:#555; font-size:1.1rem; margin-bottom:2rem;">
+                Somos un equipo apasionado por los viajes y las aventuras. Nos dedicamos a inspirarte a explorar el mundo, vivir experiencias auténticas y conectar con culturas únicas mientras cuidamos nuestro planeta.
+            </p>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem;">
+                <!-- Misión -->
+                <div style="background:white; padding:1.5rem; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.1); transition:transform 0.3s;">
+                    <h3 style="color:#2e86de;">Misión</h3>
+                    <p style="color:#555; font-size:0.95rem;">Inspirar a las personas a descubrir destinos únicos y disfrutar de aventuras auténticas en todo el mundo.</p>
+                </div>
+
+                <!-- Visión -->
+                <div style="background:white; padding:1.5rem; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.1); transition:transform 0.3s;">
+                    <h3 style="color:#2e86de;">Visión</h3>
+                    <p style="color:#555; font-size:0.95rem;">Ser la plataforma de referencia para viajeros y aventureros, promoviendo experiencias responsables y memorables.</p>
+                </div>
+
+                <!-- Valores -->
+                <div style="background:white; padding:1.5rem; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.1); transition:transform 0.3s;">
+                    <h3 style="color:#2e86de;">Valores</h3>
+                    <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:0.95rem;">
+                        <li>🌍 Respeto por la naturaleza</li>
+                        <li>✈️ Pasión por los viajes</li>
+                        <li>🤝 Integridad y confianza</li>
+                        <li>📸 Creatividad y curiosidad</li>
+                    </ul>
+                </div>
+
+                <!-- Quiénes Somos -->
+                <div style="background:white; padding:1.5rem; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.1); transition:transform 0.3s;">
+                    <h3 style="color:#2e86de;">Quiénes Somos</h3>
+                    <p style="color:#555; font-size:0.95rem;">Un grupo de exploradores y amantes de los viajes que buscan mostrar la belleza de cada rincón del mundo y conectar con culturas únicas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        /* Hover efecto profesional */
+        #nosotros div > div:hover {
+            transform: translateY(-5px);
+            box-shadow:0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        /* Responsive para móviles */
+        @media (max-width:900px){
+            #nosotros div[style*="display:flex"]{
+                flex-direction:column;
+            }
+        }
+    </style>
+</section>
